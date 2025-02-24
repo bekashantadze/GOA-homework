@@ -1,6 +1,6 @@
 fullname= " beqa shantadze"
-hobby= "playng to foobtball"
-
+hobby= "plaing to foobtball"
+num1=10+10
 print(fullname)
 print(hobby)
-print(10+10)
+print(num1)
