@@ -5,6 +5,6 @@
 
 read_pages=int(input("შეიყვანეთ წაკითხული გვერდების რაოდენობა.:"))
 free_time=input("გქონდა თუ არა თავისუფალი დრო?")
-productive=read_pages>=100
+productive=read_pages>=20 and free_time
 print(productive)
 

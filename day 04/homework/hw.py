@@ -1,15 +1,11 @@
-mothername="dodo"
-fathername="omari"
-brothername2="suxo"
-brothername="nodar"
-sistername="diana"
-sistername2="ana"
-print(mothername)
-print(fathername)
-print(brothername)
-print(brothername2)
-print(sistername)
-print(sistername2)
+mother="dodo"
+father="omari"
+brother="suxo"
+brother2="nodar"
+sister="diana"
+sister2="ana"
+print("my mother name is" + " " + mother + " " + "my father is" + " " + father + " " + "brother name is" + " " + brother + " "+ " brother name is"+ " " + brother2 + " " + "my sister name is" +  " " + sister + ""  + " my sister name is" + " " + sister2)
+
 
 
 

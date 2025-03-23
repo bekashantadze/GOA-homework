@@ -8,7 +8,7 @@ print(7.5 > 7.9)
 # False
 print(89.8 > 78)
 # true
-print(78,9 > 6,8)
+print(78.9 > 6.8)
 # true
 
 # >= (მეტია ან ტოლია)
@@ -18,9 +18,9 @@ print(100 >= 99)
 # True
 print(-1 >= 0)  
 # False
-print(23,10 >= 9,0)
+print(23.10 >= 9.0)
 # true
-print(-12,90 >= 12)
+print(-12.90 >= 12)
 # false
 
 # < (ნაკლებია)
