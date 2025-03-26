@@ -4,7 +4,7 @@
 # productive ცვლადი იქნება ჭეშმარიტი (True), თუ მოსწავლემ წაიკითხა მინიმუმ 20 გვერდი და თავისუფალი დრო ჰქონდა.
 
 read_pages=int(input("შეიყვანეთ წაკითხული გვერდების რაოდენობა.:"))
-free_time=input("გქონდა თუ არა თავისუფალი დრო?")
+free_time=bool(input("გქონდა თუ არა თავისუფალი დრო?"))
 productive=read_pages>=20 and free_time
 print(productive)
 
