@@ -1,14 +1,13 @@
 # შექმენით პროგრამა while ციკლით რომელიც მომხარებელს შეეკითხება pin კოდს (4 ციფრიანი კოდი) იქამდე სანამ არ შემოიყვანს სწორად, საბოლოოდ დაუბეჭდეთ რომ გაიარა ავტორიზაცია და გამოუტანეთ თუ რამდენი ცდა დასჭირდა
 correct_pincode = "2009"
 attempts = 0  
+entered_pin= " "
 
-while True:
-    user_pin = input("შეიყვანეთ 4-ნიშნა PIN კოდი: ")
-    attempts += 1  
-    
-    if user_pin == correct_pincode:
-        print("ავტორიზაცია წარმატებულია! თქვენ დაგჭირდათ", attempts, "მცდელობა.")
-        break
-    else:
-        print("არასწორი PIN! სცადეთ თავიდან. მცდელობა:", attempts)
+while entered_pin != correct_pincode:
+    entered_pin =input("შეიყვანე შენი პინკოდი:")
+    attempts+=1
+
+print("შესვლა წარმატებით შესრულდა:")
+print("ცდის რაოდენობაა", attempts)
+
 
