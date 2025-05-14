@@ -1,0 +1,15 @@
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+p {
+    background-color:crimson; 
+    padding: 10px;
+    border-radius: 6px;
+    font-family: Georgia, serif;
+    text-align: center;
+}

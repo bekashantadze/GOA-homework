@@ -1,0 +1,40 @@
+<!-- 4) interal css-ში 1 წესის საშვალებით გასტილეთ 2 h1 და h2 ვებგვერდზე, ასევე მეორე წესის საშვალებით გასტილეთ div-ში არსებული ყველა პარაგრაფი, მინმიუმ მიანიჭეთ color და background-color შეეცადეთ გამოიყენოთ ყველა კუთვნილება. კომენტარებით ახსენით თუ რა არის CSS-ის წესი -->
+ <!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>სტილების მაგალითი</title>
+    <style>
+        
+        h1, h2 {
+            color: navy;
+            background-color: lightgray;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        
+        div p {
+            color: white;
+            background-color: darkgreen;
+            font-size: 16px;
+            font-family: "Times New Roman", serif;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>სათაური H1</h1>
+    <h2>სათაური H2</h2>
+
+    <div>
+        <p>ეს არის პირველი პარაგრაფი div-ში.</p>
+        <p>ეს არის მეორე პარაგრაფი div-ში.</p>
+    </div>
+    <!-- CSS წესი (CSS rule) არის წერტილი, სადაც განსაზღვრავ, როგორ უნდა გამოიყურებოდეს HTML ელემენტი ვებგვერდზე. ის შედგება სელექტორისა და დეკლარაციების ბლოკისგან. -->
+</body>
+</html>
