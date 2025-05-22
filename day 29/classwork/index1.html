@@ -1,0 +1,33 @@
+<!-- 2) გასტილეთ ვებგვერდზე ყველა h2 და h3 თქვენთვის სასურველი CSS-ის დეკლარაციებით, ოღონდ გამოიყენეთ მხოლოდ 1 CSS-ის წესი (ესეიგი ერთად უნდა დაწეროთ selector-ში და დააცილოთ მძიმით), შემდეგ კი გასტილეთ ყველა ღილაკი ცისფერი ფონის ფერით ვებგვერდზე ხოლო ის ღილაკები რომელბიც div-შია ჩასმული გასტილეთ მწვანე ფონის ფერით -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h1,h2{
+            background-color: black;
+            color:aqua;
+            text-align: center;
+            
+        }
+        button{
+            color: blue;
+        }
+        div button{
+            color: green;
+        }
+    </style>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, eaque blanditiis. Architecto adipisci, impedit quia ratione necessitatibus atque accusantium. Esse provident modi omnis libero ut dolorum nemo ratione amet vitae.</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repellendus totam blanditiis nostrum quaerat voluptatum repudiandae explicabo veritatis. Repudiandae ullam eius ducimus non cum provident asperiores et esse dolores culpa?</h2>
+    <button>click here</button>
+    <div>
+        <button>click here please</button>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!-- 4) შექემნით ვებგვერდი თქვენს შესახებ, რომელზეც მოცემული იქნება ინფორმაცია და სურათები. გამოიყენეთ Internal CSS გასტილვისთვის და ელემენტები გასტილეთ შთამომავალი selector-ისა (გამოიყენეთ მინიმუმ 3-ჯერ) და id-ის მეშვეობით -->
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ჩემს შესახებ</title>
+  <style>
+    /* ID Selector */
+    #main-title {
+      color: darkred;
+      text-align: center;
+      font-size: 32px;
+    }
+
+    /* შთამომავალი Selector-ები (3 მაგალითი) */
+    div p {
+      color: #333;
+      font-size: 18px;
+    }
+
+    section ul li {
+      color: darkgreen;
+      font-style: italic;
+    }
+
+    article img {
+      width: 200px;
+      border-radius: 12px;
+    }
+
+    /* ზოგადი სტილები */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+
+    div, section, article {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="main-title">ჩემს შესახებ</h1>
+
+  <div>
+    <p>მე ვარ ბექა შანთაძე 16 წლის ვსწავლობ დაბა ხულოს საჯარო სკოლაში ვარ მე-10 კლასში,ჩემი მთავარი პროფესია მინდა რომ იყოს ვებ დეველოპერობა რადგან მომწონს ისეთი სამუშაოები,რომლებშიც შეგიძლია ონლაინაც იმუშაო და დროც დაგრჩეს იმისთვის,რომ საყვარელ ადამიანებთან ერთად სასიამოვნო დროც გაატარო.ჩემი ჰობია ფეხბურთის თამაში,ასევე მიყვარს სამაგიდო თამაშების თამაში მეგობრებთან ერთად.</p>
+  </div>
+
+  <section>
+    <h2>ჩემი ინტერესები</h2>
+    <ul>
+      <li>ვებ დიზაინი</li>
+      <li>ტექნოლოგიები</li>
+      <li>გრაფიკული დიზაინი</li>
+    </ul>
+  </section>
+
+</body>
+</html>
